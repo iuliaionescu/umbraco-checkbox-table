@@ -14,7 +14,9 @@
 }
 
 .checkbox-table td {
-    text-align:center;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 
@@ -34,4 +36,25 @@
 
 .checkbox-table i.icon-delete:hover {
     color: #fe3e39; /* Umbraco red from 7.2.3 */
+}
+
+.hover {
+	background: #f3f3f5;
+}
+
+.add-column {
+	position: absolute;
+	left: calc(100% - 38px);
+	bottom: -20px;
+}
+
+.add-row {
+	position: absolute;
+	right: -15px;
+	top: calc(100% - 30px);
+}
+
+.checkbox-table-inner {
+	position: relative;
+	display: inline-block;
 }
